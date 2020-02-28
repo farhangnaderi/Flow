@@ -155,7 +155,7 @@ void global_data_reset_param_defaults(void){
 	strcpy(global_data.param_name[PARAM_USB_SEND_DEBUG], "USB_SEND_DEBUG");
 	global_data.param_access[PARAM_USB_SEND_DEBUG] = READ_WRITE;
 
-	global_data.param[PARAM_VIDEO_ONLY] = 0;
+	global_data.param[PARAM_VIDEO_ONLY] = 1;
 	strcpy(global_data.param_name[PARAM_VIDEO_ONLY], "VIDEO_ONLY");
 	global_data.param_access[PARAM_VIDEO_ONLY] = READ_WRITE;
 
@@ -231,7 +231,7 @@ void global_data_reset_param_defaults(void){
 	strcpy(global_data.param_name[PARAM_AGC], "AGC");
 	global_data.param_access[PARAM_AGC] = READ_WRITE;
 
-	global_data.param[PARAM_BRIGHT] = 20;
+	global_data.param[PARAM_BRIGHT] = 50;
 	strcpy(global_data.param_name[PARAM_BRIGHT], "BRIGHT");
 	global_data.param_access[PARAM_BRIGHT] = READ_WRITE;
 
